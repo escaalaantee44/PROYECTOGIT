@@ -1,21 +1,26 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
-.contenedor{
+
+.contenedor {
 	width: 90%;
 	max-width: 1000px;
 	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	
 }
-header{
-	padding: 20px;
+
+header {
+	
 	width: 100%;
 	background-color: blue;
 }
 
-header h1{
-	color:aliceblue;
+header h1 {
+	color: aliceblue;
 }
 
 nav a {
@@ -25,18 +30,14 @@ nav a {
 
 }
 
-img{
-	width: 300px;
-	margin:200px;
-}
 
-nav a:hover{
+nav a:hover {
 	text-decoration: underline;
 }
 
-nav{
+nav {
 	padding: 15px;
-	background-color:red;
+	background-color: red;
 
 }
 
@@ -46,28 +47,45 @@ nav a {
 	padding: 15px;
 }
 
-nav a:hover{
+nav a:hover {
 	text-decoration: underline;
 }
 
-main{
-	padding: 20px;
-	width: 100%;
+
+
+main {
+	padding: 10px;
+	width: 70%;
 	background-color: blue;
+	
+}
+main section article{
+	margin: 10px;
 }
 
-aside{
-	width: 100px;
-	background-color: antiquewhite;
-}
 
-footer{
-	padding: 20px;
-	width: 100px;
-	background-color: antiquewhite;
-}
-aside{
-	padding: 20px;
-	width: 100px;
+
+aside {
+	padding:20px;
+	width: 30%;
 	background-color: orangered;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between
+}
+
+aside div{
+	margin:10px 10px;
+	background-color: orange;
+	padding: 20px 20px;
+	width: 100%;
+	height: 100px;
+	
+}
+
+footer {
+	padding: 10px;
+	width: 100%;
+	background-color: antiquewhite;
 }
