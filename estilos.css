@@ -18,6 +18,22 @@ header h1{
 	color:aliceblue;
 }
 
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+
+}
+
+img{
+	width: 300px;
+	margin:200px;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
 nav{
 	padding: 15px;
 	background-color:red;
