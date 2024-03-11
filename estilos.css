@@ -13,7 +13,13 @@ header{
 	padding: 20px;
 	width: 100%;
 	background-color: blue;
+
 }
+
+header h1{
+	color:aliceblue;
+}
+
 nav a {
 	text-decoration: none;
 	color: white;
