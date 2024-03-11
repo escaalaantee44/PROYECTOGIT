@@ -21,6 +21,11 @@ nav a {
 
 }
 
+img{
+	width: 300px;
+	margin:200px;
+}
+
 nav a:hover{
 	text-decoration: underline;
 }
