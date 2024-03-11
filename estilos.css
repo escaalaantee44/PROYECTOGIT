@@ -57,8 +57,10 @@ main{
 }
 
 aside{
+	padding: 20px;
 	width: 100px;
 	background-color: antiquewhite;
+	
 	display: flex;
 	flex-wrap:wrap;
 	flex-direction:column;
@@ -70,8 +72,4 @@ footer{
 	width: 100px;
 	background-color: antiquewhite;
 }
-aside{
-	padding: 20px;
-	width: 100px;
-	background-color: orangered;
-}
+
