@@ -8,3 +8,15 @@
 	max-width: 1000px;
 	margin: auto;
 }
+
+header{
+	padding: 20px;
+	width: 100%;
+	background-color: blue;
+}
+
+footer{
+	padding: 20px;
+	width: 100%;
+	background-color: blue;
+}
