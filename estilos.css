@@ -8,3 +8,13 @@
 	max-width: 1000px;
 	margin: auto;
 }
+main{
+	padding: 20px;
+	width: 100px;
+	background-color: antiquewhite;
+}
+aside{
+	padding: 20px;
+	width: 100px;
+	background-color: antiquewhite;
+}
