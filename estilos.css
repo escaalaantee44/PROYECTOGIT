@@ -82,3 +82,8 @@ footer{
 footer h1{
 	color: white; 
 }
+aside{
+	padding: 20px;
+	width: 100px;
+	background-color: orangered;
+}
