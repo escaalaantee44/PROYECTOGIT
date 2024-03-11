@@ -9,6 +9,11 @@
 	margin: auto;
 }
 
+header{
+	padding: 20px;
+	width: 100%;
+	background-color: blue;
+}
 nav a {
 	text-decoration: none;
 	color: white;
@@ -24,4 +29,10 @@ nav{
 	padding: 15px;
 	background-color:red;
 
+}
+
+footer{
+	padding: 20px;
+	width: 100%;
+	background-color: blue;
 }
