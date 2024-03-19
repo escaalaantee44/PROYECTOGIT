@@ -152,7 +152,7 @@ div.rrss a{
 		
 	}
 
-@media(max-width:500px) {
+@media(max-width:600px) {
 	footer {
 		flex-wrap: wrap-reverse;
 		justify-content:space-between;
