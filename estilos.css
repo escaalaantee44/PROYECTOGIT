@@ -152,8 +152,10 @@ div.rrss a{
 		
 	}
 
-
-	
+@media(max-width:500px) {
+	footer {
+		flex-wrap: wrap-reverse;
+	}
 }
 
 
