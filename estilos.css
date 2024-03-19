@@ -155,7 +155,18 @@ div.rrss a{
 @media(max-width:500px) {
 	footer {
 		flex-wrap: wrap-reverse;
+		justify-content:space-between;
 	}
+
+	div.rrss{
+		width:50%;
+	}	
+
+	footer h1{
+		width:50%;
+		
+	}
+	
 }
 
 
